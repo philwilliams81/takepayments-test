@@ -1,0 +1,59 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  font-size: 12px;
+}
+
+
+table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+
+tr {  
+  border-bottom: 1px solid #eee;
+}
+tr.headings {  
+  background: 1px solid #f9f9f9;
+}
+
+
+th {
+  text-align: left;
+  padding: 12px;
+}
+
+
+td {
+  padding: 5px 10px;
+}
+
+
+form#employee-form {
+  background: #8c78a4;
+  max-width: 600px;
+  margin: 15px auto;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 12px;
+  color: #fff;
+}
+
+form#employee-form label {
+    min-width: 120px;
+    display: inline-block;
+    text-align: left;
+}
+
+#search {
+  background: #fff;
+  border: none;
+  padding: 5px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-width, initial-scale=1.0">
+    <title>takepayments.com - developer test</title>
+    <script src="./employeesJSON.js"></script>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <form id="employee-form">
+        <div id="search-container">
+            <label for="search">Search</label>
+            <input name="search" id="search" type="search" placeholder="search" />
+            <input type="submit" id="submit-search" value="search">
+        </div>
+        <div id="filter-container">
+            <label for="filtername">name</label>
+            <input name="filtername" id="filtername" type="search" placeholder="DD/MM/YYYY" />
+            <br>
+            <label for="filterstartdate">start date</label>
+            <input name="filterstartdate" id="filterstartdate" type="search" placeholder="DD/MM/YYYY" />
+            <br>
+            <label for="filteremployed">employed</label>
+            <select name="filteremployed" id="filteremployed">
+                <option value="1">employed</option>
+                <option value="0">not employed</option>
+            </select>
+        </div>
+        
+    </form>
+
+    <div id="employee-results">
+
+        <table id="employee-table">
+
+            <!-- The following table code is how I built my initial table to get some basic styles prior to using JS to produce the table from JSON -->
+            <thead>
+                <tr class="headings">
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Start Date</th>
+                    <th>Employed</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Smith</td>
+                    <td>11/07/2008</td>
+                    <td>true</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>
